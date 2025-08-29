@@ -16,12 +16,33 @@
       integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
       crossorigin="anonymous"
     />
+    <link href="https://fonts.googleapis.com/css2?family=Barriecito&family=Jua&family=Londrina+Shadow&family=Sour+Gummy:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
     <style>
+  p, ul {
+    font-family: 'Sour Gummy', sans-serif;
+    font-size: 30px;
+    color: rgb(0, 0, 0);
+  }
+  #Forms, #slidecontainer {
+     font-family: 'Sour Gummy', sans-serif;
+    font-size: 30px;
+    color: rgb(0, 0, 0);
+  }
+ .section-2 {
+    display: flex;
+    flex-direction: row;
+    margin-top: 200px;
+    justify-content: space-evenly;
+ }
+#gif {
+  transition: transform 0.4s ease;
+}
+
+#gif:hover {
+  transform: rotate(365deg);
+}
 
 
-        p {
-            color: maroon;
-        }
 </style>
     <title>BTS Fanpage</title>
   </head>
@@ -66,27 +87,47 @@
           
           <br>
           <section id="About">
-            <div class="introduction">
-                <p>Where do we begin *chuckles*</p>
+            <h3 style="font-family: 'Sour Gummy', sans-serif; font-size: 40px; color: rgb(0, 0, 0); background-color;">BTS, Bangtan Sonyeondan, or Beyond the Scene—is a seven-member South Korean boy band that’s become one of the most influential music groups in the world 🌍. 
+                  They debuted in 2013 under Big Hit Entertainment and quickly rose from underground hip-hop roots to global superstardom</h3>
+                <hr style="color: white">
+                
+                  <p>🎤 <b><u>Members of BTS:</u></b>
+                    <ul>
+                        <li>RM (leader, rapper, lyricist)🐨</li>
+                        <li>Jin (vocalist, known as “Worldwide Handsome”)🐹</li>
+                        <li>SUGA (rapper, producer)🐱</li>
+                        <li>j-hope (rapper, dancer, mood-maker)🐿️</li>
+                        <li>Jimin (vocalist, dancer)🐥</li>
+                        <li>V (vocalist, actor)🐻🐯</li>
+                        <li>Jungkook (main vocalist, youngest)🐰</li>
+                    </ul>
+                </p>
+                       <img id="gif"src="./imgs/bts_gif.gif" alt="BTS_Group_Gif" style="position: absolute; right: 10px; top: 800px;">
+
                 </section>
-                    
+                <section class="section-2">
                 <section id="Forms">
-<form class="quote-form">
-    <h5>Favorite BTS Quote</h5>
-    <h6>Vote Now!</h6>
-  <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
-  <label for="vehicle1"> Jimin You Got No Jams</label><br>
-  <input type="checkbox" id="vehicle2" name="vehicle2" value="Car">
-  <label for="vehicle2"> We Have hamburgers in Korea Too</label><br>
-  <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
-  <label for="vehicle3"> There's a Ribbon in a Sky that I love</label>
-</form>
-<h1>Show your love to BTS PLEASE THEY KNOW. RUN. NOW.</h1>
+                  <form class="quote-form">
+                      <h1>&#x2606;Favorite BTS Quote&#x2606;</h1>
+                        <h3>Vote Now!</h3>
+                   <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+                   <label for="vehicle1"> <i>"Jimin You Got No Jams" - RM</label></i><br>
+                   <input type="checkbox" id="vehicle2" name="vehicle2" value="Car">
+                   <label for="vehicle2"> <i>"We Have hamburgers in Korea Too" - RM</i></label><br>
+                   <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
+                   <label for="vehicle3"> <i>"There's a Ribbon in a Sky that I love" - RM</i></label>
+                  </form>
+                  </section>
+<section id="slidecontainer">
+<h1 style ="color: rgb(255, 255, 255);">&#x2606;Show your love to BTS PLEASE&#x2606;</h1>
+<h3 style = "color: rgb(255, 255, 255);">Slide to the right!</h3>
 <div class="slidecontainer">
   <input type="range" min="50" max="100" value="90" class="slider" id="myRange">
 </div>
 </section>
-
+</section>
+<br>
+<br>
 <section id = "Home">
             <div class="buttons">
             <!--Buttons-->
@@ -97,19 +138,19 @@
                  height="250px" />
             </a>
 
-            <a href="about.html">
+            <a href="index.html">
             <img src="https://www.pngmart.com/files/13/BT21-PNG-Transparent.png" 
                  alt="BT21_Group_Photo"
                  width="350px" />
             </a>
 
-            <a href="releases.html">
+            <a href="about.html">
             <img src="https://cdn3d.iconscout.com/3d/premium/thumb/pen-3d-icon-png-download-3439392.png" 
-                 alt="Pen_Icon"
-                 width="250px"
-                 height="270px" />
-
+                 alt="BT21_Group_Photo"
+                 width="290px" />
             </a>
+            
+
             <!--End of Buttons-->
             </div>
 
