@@ -16,13 +16,12 @@
      align-items: center;
 }
 
-
 .header-image {
     position: absolute;
     right: 350px;
     top: -30px;
-      transition: transform .8s ease;
-  transform: rotate(180deg);
+    transition: transform .9s ease;
+    transform: rotate(360deg);
 
 }
 
