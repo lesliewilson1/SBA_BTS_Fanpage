@@ -1,0 +1,31 @@
+.container-fluid {
+    background-color: #9000B3;
+}
+
+.index-container {
+}
+.header-container {
+    background-color: #9000B3;
+}
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.header-2 {
+     display: flex;
+     justify-content: center;
+     flex-wrap: wrap;
+}
+.header-image {
+    position: absolute;
+    right: 90px;
+    top: -50px;
+}
+.introduction {
+    background-color: #9000B3;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
